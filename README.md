@@ -7,7 +7,7 @@ Official implementation and benchmark reproduction scripts for the paper:
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Epsilon** is an adaptive optimization algorithm that regulates momentum decay via the **cosine directional similarity between consecutive gradients**. Rather than accumulating squared gradients, it assesses update coherence and normalises step sizes against accumulated momentum magnitude, mitigating erratic trajectories under high spatial gradient variance.
 
@@ -19,7 +19,7 @@ Official implementation and benchmark reproduction scripts for the paper:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 epsilon-optimizer/
@@ -33,7 +33,7 @@ epsilon-optimizer/
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### 1. Requirements
 Clone the repository and install the required dependencies:
@@ -87,7 +87,7 @@ To run the exact benchmarks reported in the manuscript:
 
 ---
 
-## 📊 Summary of Empirical Results
+## Summary of Empirical Results
 
 | Dataset | Optimiser | Test Accuracy (%) | Test Loss | Macro AUC |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ To run the exact benchmarks reported in the manuscript:
 
 ---
 
-## 📜 Citation
+## Citation
 
 ```bibtex
 @article{yanes2026epsilon,
