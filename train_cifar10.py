@@ -21,7 +21,7 @@ import matplotlib
 import seaborn
 import tqdm
 
-print("✅ Todas las librerías instaladas correctamente")
+print("Todas las librerías instaladas correctamente")
 print(f"PyTorch: {torch.__version__}")
 print(f"TorchVision: {torchvision.__version__}")
 print(f"CUDA disponible: {torch.cuda.is_available()}")
@@ -436,7 +436,7 @@ class OptimizerComplexity:
         elif self.optimizer_name == "AMSGrad":
             return 13  # Corregido: Es Adam (12) + 1 operación 'max' para el mecanismo AMSGrad
         elif self.optimizer_name == "Epsilon":
-            return 11
+            return 14
         else:
             return 0
             
